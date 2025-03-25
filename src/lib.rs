@@ -1,10 +1,9 @@
 use std::ffi::{CStr, CString};
-use std::os::raw::c_char;
 use std::path::Path;
 use std::sync::Mutex;
 
 // Include the generated bindings
-include!(concat!("../output", "/bindings.rs"));
+include!(concat!("./generated", "/bindings.rs"));
 
 pub struct Office {
     handle: *mut LibreOfficeKit,

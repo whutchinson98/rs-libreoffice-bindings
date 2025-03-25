@@ -1,7 +1,16 @@
 [package]
 name = "rs-libreoffice-bindings"
-version = "0.1.0"
+version = "0.0.1"
 edition = "2024"
+exclude = ["fixtures", "examples"]
+authors = ["whutchinson98"]
+include = ["src/**/*.rs"]
+homepage = "https://github.com/whutchinson98/rs-libreoffice-bindings"
+repository = "https://github.com/whutchinson98/rs-libreoffice-bindings"
+license = "MIT"
+readme = "README.md"
+keywords = ["LibreOffice", "LibreOfficeKit", "lok", "ffi"]
+description = "LibreOfficeKit bindings for Rust"
 
 [dependencies]
 

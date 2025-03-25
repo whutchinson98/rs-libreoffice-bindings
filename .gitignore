@@ -1,2 +1,6 @@
 /target
 *.pdf
+lok/
+core-co-25.04-assets.tar.gz
+output/*
+!output/.gitkeep

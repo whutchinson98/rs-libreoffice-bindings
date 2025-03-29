@@ -2,7 +2,6 @@ use std::ffi::{CStr, CString};
 use std::path::Path;
 use std::sync::Mutex;
 
-// Include the generated bindings
 include!(concat!("./generated", "/bindings.rs"));
 
 pub struct Office {
@@ -66,6 +65,7 @@ impl Office {
 impl Drop for Office {
     fn drop(&mut self) {
         unsafe {
+            println!("Dropping office");
             destroy_office(self.handle);
         }
     }
@@ -111,6 +111,7 @@ impl Document {
 impl Drop for Document {
     fn drop(&mut self) {
         unsafe {
+            println!("Dropping document");
             destroy_document(self.handle);
         }
     }

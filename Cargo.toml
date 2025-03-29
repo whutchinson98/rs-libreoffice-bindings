@@ -17,3 +17,6 @@ description = "LibreOfficeKit bindings for Rust"
 [build-dependencies]
 bindgen = "0.71.0"
 cc = "1.2.17"
+
+[dev-dependencies]
+nix = { version = "0.29.0", features = ["process"] }

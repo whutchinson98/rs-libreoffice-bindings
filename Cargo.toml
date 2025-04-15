@@ -1,19 +1,16 @@
 [package]
 name = "rs-libreoffice-bindings"
-version = "0.0.3"
+version = "0.0.4"
 edition = "2024"
 exclude = ["fixtures", "examples", "lok", "output"]
 authors = ["whutchinson98"]
-include = ["src/**/*.rs", "lokbridge.h"]
+include = ["src/**/*.rs", "lokbridge.h", "lokbridge_impl.c", "headers/**/*"]
 homepage = "https://github.com/whutchinson98/rs-libreoffice-bindings"
 repository = "https://github.com/whutchinson98/rs-libreoffice-bindings"
 license = "MIT"
 readme = "README.md"
 keywords = ["LibreOffice", "LibreOfficeKit", "lok", "ffi"]
 description = "LibreOfficeKit bindings for Rust"
-
-[package.metadata]
-links = "lokbridge"
 
 [dependencies]
 

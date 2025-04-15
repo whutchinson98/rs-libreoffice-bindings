@@ -1,5 +1,4 @@
 #include "lokbridge.h"
-#include <stdlib.h>
 #include "./headers/LibreOfficeKitInit.h"
 #include "./headers/LibreOfficeKit.h"
 

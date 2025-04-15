@@ -1,10 +1,10 @@
 [package]
 name = "rs-libreoffice-bindings"
-version = "0.0.2"
+version = "0.0.3"
 edition = "2024"
-exclude = ["fixtures", "examples"]
+exclude = ["fixtures", "examples", "lok", "output"]
 authors = ["whutchinson98"]
-include = ["src/**/*.rs"]
+include = ["src/**/*.rs", "lokbridge.h"]
 homepage = "https://github.com/whutchinson98/rs-libreoffice-bindings"
 repository = "https://github.com/whutchinson98/rs-libreoffice-bindings"
 license = "MIT"

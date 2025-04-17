@@ -1,6 +1,6 @@
 [package]
 name = "rs-libreoffice-bindings"
-version = "0.0.5"
+version = "0.0.6"
 edition = "2024"
 exclude = ["fixtures", "examples", "output"]
 authors = ["whutchinson98"]

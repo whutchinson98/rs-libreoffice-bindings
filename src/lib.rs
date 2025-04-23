@@ -65,7 +65,6 @@ impl Office {
 impl Drop for Office {
     fn drop(&mut self) {
         unsafe {
-            println!("Dropping office");
             destroy_office(self.handle);
         }
     }
@@ -111,7 +110,6 @@ impl Document {
 impl Drop for Document {
     fn drop(&mut self) {
         unsafe {
-            println!("Dropping document");
             destroy_document(self.handle);
         }
     }
